@@ -1,0 +1,81 @@
+.container {
+  padding: 20px;
+}
+
+.header {
+  text-align: center; /* Centrer le texte */
+  margin-bottom: 20px; /* Marge inférieure pour espacer de la section suivante */
+}
+
+.header h1 {
+  font-size: 24px; /* Taille de la police pour "Patrimoine" */
+  margin: 0; /* Supprimer la marge par défaut */
+}
+
+.header h2 {
+  font-size: 18px; /* Taille de la police pour "Utilisateur" */
+  margin: 0; /* Supprimer la marge par défaut */
+  color: gray; /* Couleur du texte pour l'utilisateur */
+}
+
+.entrees {
+  margin-bottom: 20px;
+}
+
+.entrees label {
+  margin-right: 10px; 
+}
+
+.entrees input[type="date"] {
+  margin-bottom: 10px;
+}
+
+.entrees input[type="date"] {
+  margin-bottom: 10px;
+}
+
+.entrees input[type="date"]:nth-of-type(2) {
+  margin-bottom: 20px; 
+}
+
+
+.checkbox-group {
+  display: flex; 
+  gap: 15px; 
+  margin-top: 10px; 
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center; 
+}
+
+input[type="checkbox"] {
+  accent-color: blue; 
+  width: 20px; 
+  height: 20px; 
+  margin-right: 5px; 
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: black; 
+  color: white;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: darkblue; 
+}
+
+.sorties {
+  margin-top: 20px; 
+}
+
+.sortie-texte,
+.sortie-graphique {
+  margin-bottom: 20px; 
+}
